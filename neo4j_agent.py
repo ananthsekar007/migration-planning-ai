@@ -27,7 +27,6 @@ NEO4J_URL = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "password123"
 
-
 # ── Tool: ingest_graph_data ──────────────────────────────────────────────────
 @tool
 def ingest_graph_data(input_path: str = str(INPUT_CSV)) -> str:
